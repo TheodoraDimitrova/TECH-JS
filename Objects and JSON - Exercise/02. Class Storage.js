@@ -15,7 +15,7 @@ function solve() {
       return this.storage.map(el => JSON.stringify(el)).join("\n");
     }
   }
-  let productOne = { name: "Cucamber", price: 1.5, quantity: 15 };
+  let productOne = { name: "Cucumber", price: 1.5, quantity: 15 };
   let productTwo = { name: "Tomato", price: 0.9, quantity: 25 };
   let productThree = { name: "Bread", price: 1.1, quantity: 8 };
   let storage = new Storage(50);
